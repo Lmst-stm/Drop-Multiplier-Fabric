@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "dropmultiplier",
+  "version": "${version}",
+  "name": "Drop Multiplier",
+  "description": "An auxiliary mod that can modify the drop rate of game items.",
+  "authors": ["Lmst_myh"],
+  "license": "All Rights Reserved",
+  "environment": "*",
+  "entrypoints": { "main": ["lmstmyh.dropmultiplier.DropMultiplier"] },
+  "mixins": ["dropmultiplier.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "~1.14.1",
+    "java": ">=8"
+  }
+}
